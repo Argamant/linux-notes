@@ -1,10 +1,13 @@
 # Linux Notes
 For the basic [or infuriating] linux details I constantly find myself needing.
 
-## Searching the File System
+## File System
 
-### Find
-example: `find ./ -name "fishguy*"
+### find
+search for files by file name.
+example: `find ./ -name "fishguy*"`
+
+### grep
 
 ## Makemkv
 when copying fails, delete the files in the Downloads folder using find and then download the latest version following the instructions on this page: https://makemkv.com/forum/viewtopic.php?f=3&t=224

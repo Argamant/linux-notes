@@ -11,11 +11,11 @@ when copying fails, delete the files in the Downloads folder using find and then
 
 ## Text Editors
 ### Nano
-Cut: 		`Ctrl + k`
-copy: 		`Alt + ^` i.e. `Alt + Shift + 6`
-paste 		`Ctrl + u`
-save: 		`Ctrl + o`
-select all: `Alt + a`
+* Cut: 		`Ctrl + k`
+* copy: 	`Alt + ^` i.e. `Alt + Shift + 6`
+* paste 	`Ctrl + u`
+* save: 	`Ctrl + o`
+* select all: `Alt + a`
 
 ### Vim
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGH! [loads a bullet, spins the chamber.]

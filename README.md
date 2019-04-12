@@ -5,8 +5,13 @@ For the basic [or infuriating] linux details I constantly find myself needing.
 
 ### chmod
 change file permissions 
-the octal goes like this: [user][group][others]  the user is the owner of the file. yiur setting bits using hexadecimals for three octals.  
+the octal goes like this: [user][group][others]  the user is the owner of the file. Is there a way to have multiple owners and multiple groups?   
+You are setting bits using hexadecimals for three octals. Each one works the same way.  Each bit of the octal represents a permission 
+that you can have, like read, write or execute.  It's easier just to use the letter designations for these 
+like I did in the example below.
+
 use `ls -l [filename]` to see what permissions there are already.
+
 `chmod u+rwx file.txt`
 
 ### find

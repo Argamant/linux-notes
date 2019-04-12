@@ -3,6 +3,12 @@ For the basic [or infuriating] linux details I constantly find myself needing.
 
 ## File System
 
+### chmod
+change file permissions 
+the octal goes like this: [user][group][others]  the user is the owner of the file. yiur setting bits using hexadecimals for three octals.  
+use `ls -l [filename]` to see what permissions there are already.
+`chmod u+rwx file.txt`
+
 ### find
 search for files by file name.
 example: `find ./ -name "fishguy*"`
